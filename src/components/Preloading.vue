@@ -9,3 +9,15 @@ export default {
   name: 'Preloading'
 }
 </script>
+
+<style lang="scss">
+  .loading{
+    position: fixed;
+    background: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
