@@ -1,9 +1,7 @@
 # tds-weather
 
-## Used API
-```
-Open Weathermap API [openweathermap](http://openweathermap.org/api)
-```
+### Used API
+Open Weathermap API [openweathermap](https://openweathermap.org/current)
 
 ## Node version
 ```
