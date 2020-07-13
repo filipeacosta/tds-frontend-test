@@ -6,9 +6,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    &.clear {
+        background: rgb(87, 202, 219);
+        background: linear-gradient(180deg, rgba(87, 202, 219, 1) 0%, rgba(59, 161, 180, 1) 70%);
 
+        .menu {
+            a {
+                color: #fff;
+            }
+        }
+
+        .informations {
+            .information {
+                &:before {
+                    background: #fff !important;
+                }
+            }
+        }
+    }
     &.clouds,
-    &.rain {
+    &.rain,
+    &.thunderstorm {
         background: rgb(97, 105, 120);
         background: linear-gradient(180deg, rgba(97, 105, 120, 1) 0%, rgba(59, 67, 83, 1) 70%);
 
@@ -23,7 +41,6 @@
             }
         }
     }
-
     &.snow{
         background: rgb(225,224,225);
         background: linear-gradient(180deg, rgba(225,224,225,1) 0%, rgba(166,166,166,1) 70%);
@@ -46,26 +63,6 @@
             }
         }
     }
-
-    &.clear {
-        background: rgb(87, 202, 219);
-        background: linear-gradient(180deg, rgba(87, 202, 219, 1) 0%, rgba(59, 161, 180, 1) 70%);
-
-        .menu {
-            a {
-                color: #fff;
-            }
-        }
-
-        .informations {
-            .information {
-                &:before {
-                    background: #fff !important;
-                }
-            }
-        }
-    }
-
     &.internal {
         .menu {
             position: absolute;
@@ -117,6 +114,9 @@
                 span {
                     display: block;
                     width: 100%;
+                    i{
+                        opacity: .5;
+                    }
                 }
             }
         }

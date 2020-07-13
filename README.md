@@ -1,5 +1,15 @@
 # tds-weather
 
+## Used API
+```
+Open Weathermap API [openweathermap](http://openweathermap.org/api)
+```
+
+## Node version
+```
+10.15.3
+```
+
 ## Project setup
 ```
 npm install
